@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap);
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin: auto;
+  padding-left: 20px;
+  height: 45px;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.b {
+  border: 2px solid black;
+}
+
+.bold,
+thead {
+  font-weight: bold;
+}
+
+.links :hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.line {
+  border-right: 2px solid black;
+  height: 50px;
+}
+
+.time {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 6px;
+  padding-right: 7px;
+}
+
+.bbline,
+.insert {
+  width: 250px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid gray;
+}
+
+ul {
+  list-style: none;
+}
+
+.active-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  display: block;
+  margin-bottom: 12px;
+}
+
+button {
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+.contacts-section,
+h2 {
+  width: fit-content;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin: 25% auto 1% auto;
+  padding-left: 20px;
+  height: 45px;
+  align-items: center;
+}
