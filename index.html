@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/582da98624.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/yeti/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>My Awesome BookList</title>
+  </head>
+  <body>
+    <div class="wrapper container">
+      <nav class="b">
+        <h1>Awesome Books</h1>
+        <ul class="list-style nav-items">
+          <li class="links" id="list"><strong>List</strong></li>
+          <li><span class="line"></span></li>
+          <li class="links" id="add-new"><strong>Add New</strong></li>
+          <li><span class="line"></span></li>
+          <li class="links" id="contact"><strong>Contact</strong></li>
+        </ul>
+      </nav>
+      <div class="time">
+        <time id="current-time" datetime="2022-03-19T09:25:32.929"></time>
+      </div>
+      <ul class="display"></ul>
+      <div id="add-new-section">
+        <form id="book-form">
+          <div class="form-group">
+            <label for="title-name">Tile</label>
+            <input
+              type="text"
+              class="form-control"
+              id="title-name"
+              required
+              placeholder="Book Title"
+            />
+          </div>
+          <div class="form-group">
+            <label for="author-name">Author</label>
+            <input
+              type="text"
+              class="form-control"
+              id="author-name"
+              required
+              placeholder="Book Author"
+            />
+          </div>
+          <input
+            type="submit"
+            value="Add book"
+            class="btn btn-primary btn-block"
+          />
+        </form>
+      </div>
+      <div id="list-section">
+        <table class="table table-striped mt-5">
+          <thead>
+            <tr>
+              <td>Title</td>
+              <td>Author</td>
+              <td>ID</td>
+              <td></td>
+            </tr>
+          </thead>
+          <tbody class="book-list"></tbody>
+        </table>
+      </div>
+
+      <section class="contacts-section" id="contact-section">
+        <h2>Contact Information</h2>
+        <br />
+        <br />
+        <p class="bold">
+          Do you have any questions or you just want to say hello you can reach
+          out to us
+        </p>
+        <ul>
+          <li class="bold">Our email: mail@mail.com</li>
+          <li class="bold">Our phone number: (555) 4363567342644</li>
+          <li class="bold">Our address: 54th kingston street, Arizona</li>
+        </ul>
+      </section>
+      <footer class="b">CopyRight...</footer>
+    </div>
+
+    <script src="/modules/index.js" type="module"></script>
+  </body>
+</html>
