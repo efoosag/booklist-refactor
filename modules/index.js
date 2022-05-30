@@ -67,7 +67,7 @@ document.querySelector('.book-list').addEventListener('click', (e) => {
 });
 // day time
 const time = () => {
-  currentTime.innerText = DateTime.now().toLocaleString({
+  currentTime.textContent = DateTime.now().toLocaleString({
     month: 'long',
     day: 'numeric',
     year: 'numeric',
